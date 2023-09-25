@@ -5,3 +5,17 @@
 # 写在主页
 
 ### [datalab](datalab/)
+
+### [bomblab](bomblab/)
+
+### [attacklab](attacklab/)
+
+### [archlab](archlab/)
+
+### [cachelab](cachelab/)
+
+### [shlab](shlab/)
+
+### [malloclab](malloclab/)
+
+### [proxylab](proxylab/)
