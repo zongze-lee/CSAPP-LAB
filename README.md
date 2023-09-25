@@ -2,20 +2,28 @@
 
 这是我在GitHub上开源的第一个项目，也是我大一暑假的项目，著名课程 CMU 15-213 的 lab ！
 
-# 写在主页
+# LABS
 
-### [datalab](datalab/)
+### [LAB1 : datalab](datalab/)
+最像头歌的一个lab，不过其中关于二分法的题目还是很有意思的，当时我甚至想过采用静态二分的方式，不过操作符数目爆了，你在代码中还可以看见那段代码的尸体hhhhhhhh。
 
-### [bomblab](bomblab/)
+### [LAB2 : bomblab](bomblab/)
+拿到lab的时候是真的手足无措，不过上手之后不得不承认真的是一个非常有意思的lab，最后解隐雷看见二叉搜索树的时候也是真的被惊艳到了，好评，也许这就是理工男的浪漫吧~
 
-### [attacklab](attacklab/)
+### [LAB3 : attacklab](attacklab/)
+我觉得这个lab可以和bomblab在一起做，确切来讲，他们在csapp书中本来就是同一章的内容，很有趣的两个lab，做完之后收获也很大，至少可以达到能看懂大部分正常的汇编代码的水平！
 
-### [archlab](archlab/)
+### [LAB4 : archlab](archlab/)
+我仔细回想了一下，这个lab应该是做的时间最久的一个，从第一天0的突破，到第二天疯狂循环展开+消气泡，到第三天洗澡突然想到可以用平衡树，到第四天为了最后两分不停折腾跳转的树，很磨人的一个lab~
 
-### [cachelab](cachelab/)
+### [LAB5 : cachelab](cachelab/)
+效果相当好的一个lab，用模拟复习了一遍cache的各种操作，矩阵相关的内容如果想做的很好也非常烧脑，不过也许模拟cache时用链表可以在速度上达到更优！
 
-### [shlab](shlab/)
+### [LAB6 : shlab](shlab/)
+对书抄的一个lab，书上就有一个现成的半成品hhhhhh，不过在阻塞信号的地方还是需要思考一下的，不要在不该阻塞的地方阻塞然后debug半天（别问我怎么知道的）......
 
-### [malloclab](malloclab/)
+### [LAB7 : malloclab](malloclab/)
+lab还是不错的，但是我觉得这个lab的重心稍微有些偏差，第九章的重点理应是TLB，页表，虚拟地址与物理地址的转换这些，做虚拟内存分配器稍微有些偏题，也许仿照cachelab做个模拟页表效果会更好？
 
-### [proxylab](proxylab/)
+### [LAB8 : proxylab](proxylab/)
+对书抄的另一个lab（手动狗头），不过也算是一个面面俱到的lab，网络编程，多线程编程，cache都涉及到了一些，多线程编程时信号量怎么用是一个难题，尤其是读写操作繁杂的时候，无论如何...伟大的cache！cache门！
