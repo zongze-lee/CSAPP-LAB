@@ -1,0 +1,47 @@
+# copy - Copy src to dest and return xor checksum of src
+# author: Zongze
+
+# Execution begins at address 0
+	.pos 0x0
+	irmovq stack, %rsp	# Set up stack pointer
+	call main		# Execute main program
+	halt			# Terminate program
+	
+# Sample
+	.align 8
+src:
+        .quad 0x00a
+        .quad 0x0b0
+        .quad 0xc00
+dest:
+        .quad 0x111
+        .quad 0x222
+        .quad 0x333
+	
+main:
+	irmovq src, %rdi
+	irmovq dest, %rsi	
+	irmovq $3, %rdx
+	xorq %rax, %rax
+	call copy
+	ret
+	
+copy:
+	irmovq $8, %r8
+	irmovq $1, %r9
+	jmp test
+loop:
+	mrmovq (%rdi), %r10
+	rmmovq %r10, (%rsi)
+	xorq %r10, %rax
+	addq %r8, %rdi
+	addq %r8, %rsi
+	subq %r9, %rdx
+test:
+	andq %rdx, %rdx
+	jne loop
+	ret
+
+# Stack starts here and grows to lower address
+	.pos 0x200
+stack:

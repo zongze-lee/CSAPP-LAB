@@ -1,0 +1,42 @@
+# rsum - Recursive version of sum_list
+# author: Zongze Li
+
+# Execution begins at address 0
+	.pos 0x0
+	irmovq stack, %rsp	# Set up stack pointer
+	call main		# Execute main program
+	halt			# Terminate program
+	
+# LinkList of three elements
+	.align 8
+Node1:
+	.quad 0x00a
+	.quad Node2
+Node2:
+	.quad 0x0b0
+	.quad Node3
+Node3:
+	.quad 0xc00
+	.quad 0
+	
+main:
+	irmovq Node1, %rdi	
+	xorq %rax, %rax
+	call rsum
+	ret
+
+rsum:
+	andq %rdi, %rdi
+	je end
+	mrmovq (%rdi), %r8
+	pushq %r8
+	mrmovq 8(%rdi), %rdi
+	call rsum
+	popq %r8
+	addq %r8, %rax
+end:
+	ret
+
+# Stack starts here and grows to lower address
+	.pos 0x200
+stack:
