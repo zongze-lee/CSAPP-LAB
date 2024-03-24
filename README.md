@@ -1,33 +1,33 @@
 # CSAPP-LAB
 
-课程 CMU 15-213 的 lab 
+This is the accompanying lab for the Carnegie Mellon University course CMU 15-213.
 
-# LABS
+## LABS
 
-### [LAB1 : datalab](datalab/)
-最像头歌的一个lab，不过其中关于二分法的题目还是很有意思的，当时我甚至想过采用静态二分的方式，不过操作符数目爆了，你在代码中还可以看见那段代码的尸体hhhhhhhh。
+### [LAB1: datalab](datalab/)
+This lab is reminiscent of a maze, with interesting binary search questions. At one point, I even considered using a static binary search approach, but the number of operators exploded. You can still see the remnants of that code in the codebase, hhhhhhhh.
 
-### [LAB2 : bomblab](bomblab/)
-拿到lab的时候是真的手足无措，不过上手之后不得不承认真的是一个非常有意思的lab，最后解隐雷看见二叉搜索树的时候也是真的被惊艳到了，好评，也许这就是理工男的浪漫吧~
+### [LAB2: bomblab](bomblab/)
+When I first got this lab, I was completely lost. However, once I got started, I must admit it's a very interesting lab. Solving the hidden bomb and seeing the binary search tree was truly amazing. Highly recommended, perhaps this is the romance of an engineer~
 
-### [LAB3 : attacklab](attacklab/)
-我觉得这个lab可以和bomblab在一起做，确切来讲，他们在csapp书中本来就是同一章的内容，很有趣的两个lab，做完之后收获也很大，至少可以达到能看懂大部分正常的汇编代码的水平！
+### [LAB3: attacklab](attacklab/)
+I feel like this lab can be done alongside bomblab, as they are part of the same chapter in the CSAPP book. Both labs are quite interesting and completing them was rewarding, as I gained the ability to understand most normal assembly code!
 
-### [LAB4 : archlab](archlab/)
-我仔细回想了一下，这个lab应该是做的时间最久的一个，从第一天0的突破，到第二天疯狂循环展开+消气泡，到第三天洗澡突然想到可以用平衡树，到第四天为了最后两分不停折腾跳转的树，很磨人的一个lab~
+### [LAB4: archlab](archlab/)
+Upon reflection, this lab probably took the longest to complete. From breaking through zeros on day one, to crazy loop unrolling and bubble deflating on day two, to suddenly thinking of using a balanced tree while showering on day three, and finally, tirelessly tweaking the jumping tree for the last two points on day four. It's a challenging lab~
 
-### [LAB5 : cachelab](cachelab/)
-效果相当好的一个lab，用模拟复习了一遍cache的各种操作，矩阵相关的内容如果想做的很好也非常烧脑，不过也许模拟cache时用链表可以在速度上达到更优！
+### [LAB5: cachelab](cachelab/)
+This lab had a great impact as it simulated various cache operations. The matrix-related tasks were brain-teasers, but simulating cache with linked lists might achieve better speed!
 
-### [LAB6 : shlab](shlab/)
-对书抄的一个lab，书上就有一个现成的半成品hhhhhh，不过在阻塞信号的地方还是需要思考一下的，不要在不该阻塞的地方阻塞然后debug半天（别问我怎么知道的）......
+### [LAB6: shlab](shlab/)
+This lab was copied from the book; there's even a ready-made half-finished solution in the book hhhhhhh. However, blocking signals still required some thought. Don't block where you shouldn't and then debug for half a day (don't ask me how I know)...
 
-### [LAB7 : malloclab](malloclab/)
-lab还是不错的，但是我觉得这个lab的重心稍微有些偏差，第九章的重点理应是TLB，页表，虚拟地址与物理地址的转换这些，做虚拟内存分配器稍微有些偏题，也许仿照cachelab做个模拟页表效果会更好？
+### [LAB7: malloclab](malloclab/)
+This lab is good, but I feel it's slightly off focus. The focus of Chapter 9 should be TLB, page tables, virtual-to-physical address translation, etc. Doing a virtual memory allocator seems a bit off-topic. Perhaps simulating a page table similar to cachelab would be more beneficial?
 
-### [LAB8 : proxylab](proxylab/)
-对书抄的另一个lab（手动狗头），不过也算是一个面面俱到的lab，网络编程，多线程编程，cache都涉及到了一些，多线程编程时信号量怎么用是一个难题，尤其是读写操作繁杂的时候，无论如何...伟大的cache！cache门！
+### [LAB8: proxylab](proxylab/)
+Another lab copied from the book (handmade dog head), but it covers a wide range of topics - network programming, multithreading, cache, etc. Using semaphores in multithreading is a challenge, especially when dealing with complex read/write operations. In any case... the great cache! Cache is life!
 
-# 写在最后
+# Final Thoughts
 
-CSAPP真的是一个相当好的课程，至少我收获颇多，不仅在于它将组原，OS，计网串联在一起，为读者展现了一个较为完整的计算机科学框架，更在于，它作为我完整啃完的第一本计算机科学大部头，它的lab作为我第一个不在头歌上完成而在完全陌生的环境上完成的大工程，所给予我的挑战大部头，大工程的勇气，我认为这种勇气才是我最宝贵的收获，因为这是作为一名计算机学生自修勤学的保证，安身立命的本钱。
+CSAPP is truly an excellent course, and I gained a lot from it. It not only connects computer organization, operating systems, and computer networks but also presents a relatively complete framework of computer science. It was my first dive into such a massive computer science topic, and completing the labs in a completely unfamiliar environment gave me the courage to take on big challenges. This courage is the most valuable thing I gained because it's the guarantee of self-study and diligence as a computer science student, and it lays the foundation for my career in this field.
