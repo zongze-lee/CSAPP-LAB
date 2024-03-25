@@ -1,6 +1,6 @@
 # CSAPP-LAB
 
-This is the accompanying lab for the Carnegie Mellon University course CMU 15-213.
+This is the accompanying lab for the Carnegie Mellon University course 15-213.
 
 ## LABS
 
